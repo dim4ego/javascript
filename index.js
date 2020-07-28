@@ -1,5 +1,28 @@
 
-const sometext = "kozyavka";
+personalMovieDB = {
+count:0,
+movies : {},
+actors : {},
+genres : [],
+privat : false
+};
+//numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?");
+//count = numberOfFilms;
 
-console.log(`http://www.jopka.com/${sometext}`);
-alert(sometext);
+
+a = prompt("Один из последних просмотренных фильмов?",""),
+b = prompt("На сколько вы оцените его?",""),
+c = prompt("Один из последних просмотренных фильмов?",""),
+d = prompt("На сколько вы оцените его?","");
+    
+
+
+
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+
+
+//console.log(`${numberOfFilms}`);
+console.log(personalMovieDB.movies);
